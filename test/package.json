@@ -1,0 +1,17 @@
+{
+  "name": "test-mock-api",
+  "version": "1.0.0",
+  "description": "It test the mock api package",
+  "main": "test.js",
+  "type": "module",
+  "dependencies": {
+    "mock-api": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saifuddin",
+  "license": "ISC"
+}

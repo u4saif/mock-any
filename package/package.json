@@ -1,0 +1,20 @@
+{
+  "name": "mock-api",
+  "version": "1.0.0",
+  "description": "API Mocker Light weight  NPM Package to Transform any input as Server Mock API Response ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u4saif/mock-api.git"
+  },
+  "author": "Shaikh Saifuddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/u4saif/mock-api/issues"
+  },
+  "homepage": "https://github.com/u4saif/mock-api#readme"
+}
