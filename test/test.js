@@ -1,5 +1,7 @@
-import mockApi from "mock-api";
+import response from "mock-api";
 
 console.log("Test file running ");
-console.log("From NPM Package Mock-API",mockApi("hello"));
-console.log("mokeapi",mockApi);
+
+response({"ss":"hello"},3).subscribe((response)=>{
+    console.log("response",response);
+})

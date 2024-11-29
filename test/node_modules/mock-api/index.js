@@ -1,6 +1,15 @@
-export default function mockApi(responseData){
+import { Observable } from "rxjs";
 
-    return {data:responseData};
+export default function mockApi(responseData, time = 0) {
+  let ms = 0;
+  if (typeof time == "number") {
+    ms = time * 1000;
+  }
+  const observable = new Observable((subscriber) => {
+    setTimeout(() => {
+      subscriber.next(responseData);
+    }, ms);
+  });
+
+  return observable;
 }
-
-// module.exports = mockApi;

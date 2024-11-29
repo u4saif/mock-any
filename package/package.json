@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/u4saif/mock-api/issues"
   },
-  "homepage": "https://github.com/u4saif/mock-api#readme"
+  "homepage": "https://github.com/u4saif/mock-api#readme",
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
 }
