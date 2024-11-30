@@ -4,7 +4,7 @@
 
 
 # Usage 
-- In the code below after importing it calling the function 👉 **get( OUTPUT_DTAT, DELAY_IN_SECONDS)** 
+- In the code below after importing it calling the function 👉 **get( OUTPUT_DATA, DELAY_IN_SECONDS)** 
 
 - OUTPUT will be returning **Observable** that can be subscrib to get the response after defined delay. ✅
 
@@ -25,5 +25,5 @@ get({"data":"hello"},3).subscribe((Data)=>{    console.log("response",Data);
 - String 
 -  Number
 -  Empty 
- It will be return in the Response.
+- It will be return in the Response.
 -We can Provide the **Delay**  in **Seconds**
