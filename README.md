@@ -24,6 +24,8 @@ get({"data":"hello"},3).subscribe((Data)=>{    console.log("response",Data);
 - JSON
 - String 
 -  Number
--  Empty 
-- It will be return in the Response.
--We can Provide the **Delay**  in **Seconds**
+-  Empty
+
+> 🤖 It will be return in the Response.
+
+> ⏰ We can Provide the **Delay**  in **Seconds**
